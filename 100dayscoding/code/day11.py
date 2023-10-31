@@ -39,10 +39,43 @@ def another_change():
         container_cards_comp.append(computer_cards[count][0])
         computer_cards_value += computer_cards[count][1]
         container_final_comp = ', '.join(container_cards_comp)
-        if computer_cards[count][0] == "A":
-          if computer_cards_value > 21:
+        if computer_cards[0][0] == "A" and computer_cards[1][0] == "A":
+          if computer_cards[count][0] == "A":
             computer_cards_value -= 10
             computer_cards[count][1] = 1
+          elif computer_cards[count][0] != "A":
+            if computer_cards_value > 21 and computer_cards[1][1] == 11:
+              computer_cards_value -= 10 
+              computer_cards[1][1] = 1
+        elif computer_cards[0][0] == "A" and computer_cards[1][0] != "A":
+          if computer_cards[count][0] == "A":
+            computer_cards_value -= 10
+            computer_cards[count][1] = 1
+          elif computer_cards[count][0] != "A":
+            if computer_cards_value > 21 and computer_cards[0][1] == 11:
+              computer_cards_value -= 10
+              computer_cards[0][1] = 1
+        elif computer_cards[0][0] != "A" and computer_cards[1][0] == "A":
+          if computer_cards[count][0] == "A":
+            computer_cards_value -= 10
+            computer_cards[count][1] = 1
+          elif computer_cards[count][0] != "A":
+            if computer_cards_value > 21 and computer_cards[1][1] == 11:
+              computer_cards_value -= 10
+              computer_cards[1][1] = 1
+        elif computer_cards[0][0] != "A" and computer_cards[1][0] != "A":
+          if computer_cards[count][0] == "A":
+            if computer_cards_value > 21:
+              computer_cards_value -= 10
+              computer_cards[count][1] = 1
+          elif computer_cards[count][0] != "A":
+            if computer_cards_value > 21:
+              met_qua_3 = 0
+              for thc in range(len(computer_cards) - 1):
+                if computer_cards[thc][0] =="A" and computer_cards[thc][1] == 11:
+                  met_qua_3 += 1
+                  computer_cards_value -= 10
+                  computer_cards[thc][1] = 1
       if your_cards[0][0] == "A" and your_cards[1][0] == "A":
         if your_cards[0][1] == 1 and your_cards[1][1] == 11:
           if your_cards[count][0] == "A":
@@ -288,6 +321,8 @@ def wanna_play():
       print(f"Computer's first card: {computer_cards[0][0]}")
     another_change()    
   elif play == 'n':
+    clear_console()
+    print("Goodbye babe!")
     exit()
   else:
     wanna_play()
