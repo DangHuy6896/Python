@@ -1,5 +1,5 @@
 import os
-from art import logo
+from art_day9 import logo
 
 print(logo)
 
