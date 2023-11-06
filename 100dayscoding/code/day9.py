@@ -25,7 +25,7 @@ def high_bid():
   print(f"The winner is {max_name} with a bid of ${max_bid}.")
 
 def another_turn():
-  # global any_other
+  global any_other
   any_one_else = input("Are there any other bidders? Type 'yes' or 'no'. ").lower()
   if any_one_else == 'yes':
     any_other = True
