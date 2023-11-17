@@ -37,10 +37,10 @@ while game_is_on:
         score.next_lvl()
         car.next_lvl()
         car.lvl_up()
-        speed *= 1.002
+        speed *= 0.95
     for a in car.cars[0:]:
         for n in range(-220, 221, 20):
-            if abs(player.ycor() - n) < 17 and a.distance(player) < 20:
+            if abs(player.ycor() - n) < 17 and a.distance(player) < 22:
                 score.game_over()
                 game_is_on = False
                 break

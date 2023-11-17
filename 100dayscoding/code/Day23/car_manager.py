@@ -77,7 +77,7 @@ class CarManager:
 
     def lvl_up(self):
         global MOVE_INCREMENT
-        MOVE_INCREMENT += 1
+        MOVE_INCREMENT += 0.7
 
     def next_lvl(self):
         for _ in range(2):
