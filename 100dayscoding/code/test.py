@@ -1,9 +1,6 @@
-import random
+from random import randint, choice
 
-a = [{"A", 11}, {"2", 2}, {"3", 3}, {"4", 4}, {"5", 5}, {"6", 6}, {"7", 7}, {"8", 8}, {"9", 9}, {"10", 10}, {"J", 10}, {"Q", 10}, {"K", 10},]
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-b = []
-b.extend([100, 200])
-b.append([300, 400])
-print(b)
-# print(b[1][1])
+for n in range(-220, 221, 20):
+    print(n)
