@@ -44,15 +44,15 @@ while game_is_on:
                 score.game_over()
                 game_is_on = False
                 break
-    if score.score > 10:
-        screen.bgcolor("silver")
+    if score.score > 30:
+        screen.bgcolor("slate gray")
+        car.next_lvl_2()
     elif score.score > 20:
         screen.bgcolor("dark gray")
         car.next_lvl_1()
-    elif score.score > 30:
-        screen.bgcolor("slate gray")
-        car.next_lvl_2()
-
+    elif score.score > 10:
+        screen.bgcolor("silver")
+        
 screen.exitonclick()
 
 
