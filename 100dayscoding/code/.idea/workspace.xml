@@ -5,40 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a2cafb-8890-466f-8612-9d36daab941e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/100dayscoding.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day17/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day17/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day17/question_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day17/quiz_brain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day18/hirst-painting-start.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day18/hirst-painting-start/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day18/hirst-painting-start/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day18/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day19/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day19/snake.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day20/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day20/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day20/scoreboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day20/snake.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day22/ball.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day22/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day22/paddle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day22/scoreboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day23/car_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day23/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day23/player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day23/scoreboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_day15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14.py" beforeDir="false" afterPath="$PROJECT_DIR$/day14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day23/car_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day23/car_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day23/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day23/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
